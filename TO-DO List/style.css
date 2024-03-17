@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://wallpapers.com/images/high/dark-cup-of-coffee-ic8d62dr4tq445y4.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+.header-item {
+    text-align: right;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+}
+.content{
+    position: absolute;
+    margin-top: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.to-do {
+  margin-top: 40px;
+    height: 30px;
+    display: flex; 
+    margin-left: -50px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    height: 40px;
+    width: 340px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    border: none;
+    background: transparent;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: white;
+    margin-left: 50px;
+   
+}
+
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: 55px;
+    margin-right: 10px;
+  }
+  ul{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    font-size: xx-large;
+    color: white;
+    list-style: none;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 300px;
+    margin-left: -100px;
+  }
+  .input-container {
+    display: flex;
+  }
+  
+  .input-container input {
+    flex: 1; /* This allows the input field to grow and fill the remaining space */
+    margin-right: 5px; /* Adjust spacing between input field and button */
+  }
+button{
+    margin-top: 10px;
+    height: 20px;
+    margin-left: -70px;
+    font-weight: 500;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
